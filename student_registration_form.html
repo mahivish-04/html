@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            border: 1px solid black;
+            height: 100px;
+            position: relative;
+        }
+        button{
+            position:absolute;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+    </style>
+</head>
+<body>
+    <fieldset>
+        <legend style="text-align: center; font-size: 40px;" >Student registration Form</legend>
+        <form>
+         <label>First Name:</label>
+         <input type="text" id="first name">
+         <br>
+         <br>
+         <label>Middle Name:</label>
+         <input type="text" id="Middle name">
+         <br>
+         <br>
+         <label>Last Name:</label>
+         <input type="text" id="last name">
+         <br>
+         <br>
+         <label>E-mail:</label>
+         <input type="email" id="E-mail" size="20">
+         <br>
+         <br>
+         <label>Contact no.:</label>
+         <select id="contact no." name="contact no.">
+            <option value="+91">+91</option>
+            <option value="+1">+1</option>
+            <option value="+7">+7</option>
+         </select>
+         <input type="number" id="Contact no." size="10">
+         <br>
+         <br>
+         <label>Date of Birth:</label>
+         <input type="date" id="date of birth">
+         <br>
+         <br>
+         <label>Gender:</label>
+         <input type="radio" id="mradio" name="gender" value="male">
+         <label for="gender">Male</label>
+         <input type="radio" id="fradio" name="gender" value="female">
+         <label for="gender">Female</label>
+         <input type="radio" id="oradio" name="gender" value="others">
+         <label for="gender">Others</label>
+         <br>
+         <br>
+         <label>Highest Education:</label>
+         <select id="highest education" name="highest education">
+            <option value="matriculate" >Matriculate</option>
+            <option value="diploma" >Diploma</option>
+         </select>
+         <br>
+         <br>
+         <label>Previous Marks:</label>
+         <input type="number" name="Previous marks">
+         <br>
+         <br>
+         <label>University:</label>
+         <input type="text" name="unniversity">
+         <br>
+         <br>
+         <label>Current Year: </label>
+
+         <select id="current year" name="current year">
+            <option value="1st" >1st</option>
+            <option value="2nd" >2nd</option>
+            <option value="3rd" >3rd</option>
+            <option value="4th" >4th</option>
+         </select>
+         <br>
+         <br>
+          <label>Course:</label>
+          <select id="course" name="course">
+            <option value="B.tech-CSE (Core)">B.tech-CSE (Core)</option>
+            <option value="B.tech-CSE (Data Science)">B.tech-CSE (Data Science)</option>
+            <option value="B.tech-CSE (Artificail Intelligence)">B.tech-CSE (Artificail Intelligence)</option>
+            <option value="B.tech-CSE (Cloud Computing)">B.tech-CSE (Cloud Computing)</option>
+            <option value="B.tech-CSE (Web Development)">B.tech-CSE (Web Development)</option>
+            <option value="B.tech-CSE (DevOps)">B.tech-CSE (DevOps)</option>
+            <option value="B.tech-CSE (Software Analytical Engineer)">B.tech-CSE (Software Analytical Engineer)</option>
+          </select>
+<br>
+<br>
+<label>Current Address: </label><br>
+
+<textarea id="current address" name="current address" rows="3" cols="40" placeholder="enter address"></textarea>
+<br>
+<br>
+<label>State:  </label>
+<input type="text" name="state">
+<br>
+<br>
+<label>Pincode:</label>
+<input type="number" name="Pincode">
+<br>
+<br>
+
+
+<label>Set Username:  </label>
+<input type="text" name="set username">
+<br>
+<br>
+<label>Password:</label>
+<input type="password" name="password" size="16">
+<pre>(password must conatin atleast 8 characters
+     including special characters)</pre>
+<label>Confirm Password:</label>
+<input type="password" name=" confirm password" size="16">
+<br>
+<br>
+<label></label>
+<label>Upload Photo:</label>
+<input type="file" name="upload image" accept="/*">
+<pre>(file size must not exceed 200kb)</pre>
+<p>
+    <input type="checkbox"> I hereby declare that the above information provided is true and correct. 
+    <br>
+    <input type="checkbox">I have read all the terms and conditions properly.
+</p>
+<p style="text-align: center;"><a href="termsandconditions.html">Terms and conditions</a></p>
+<hr>
+<br>
+<br>
+<div class="container">
+<button class="submit" type="submit" ;>Register</button>
+     </div>
+       </form>
+    </fieldset>
+</body>
+</html>
