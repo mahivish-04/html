@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            font-size: 60px;
+            font-style: italic;
+        }
+        h3{
+            font-size: 40px;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        h2{
+font-size: 40px;
+font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">Technical Documentation</h1>
+    <hr>
+    <nav id="sidebar">
+    <h2 style="text-align: center;">HTML</h2>
+    <hr>
+    <ol>
+        <li><a class="nav-item" href="#Introduction" >Introduction</a></li>
+        <li><a class="nav-item" href="#html_editors" >HTML Editors</a></li>
+        <li><a class="nav-item" href="#html_element">HTML Element</a></li>
+        <li><a class="nav-item" href="#html_tags" >HTML Tags</a></li>
+        <li><a class="nav-item" href="#html_attributes" >HTML Attributes</a></li>
+        <li><a class="nav-item" href="#html_heading" >HTML Heading</a></li>
+        <li><a class="nav-item" href="#html_paragraph" >HTML Paragraph</a></li>
+        <li><a class="nav-item" href="#html_style" >HTML Style</a></li>
+        <li><a class="nav-item" href="#html_formatting" >HTML Formatting</a></li>
+        <li><a class="nav-item" href="#html_comments" >HTML Comments</a></li>
+        <li><a class="nav-item" href="#html_quotations" >HTML Quotations</a></li>
+        <li><a class="nav-item" href="#html_tables" >HTML Tables</a></li>
+        <li><a class="nav-item" href="#html_lists" >HTML Lists</a></li>
+        <li><a class="nav-item" href="#html_title" >HTML Title</a></li>
+        <li><a class="nav-item" href="#html_form" >HTML Form</a></li>
+        <li><a class="nav-item" href="#reference" >Reference</a></li>
+    
+    </ol>
+    </nav>
+<main id="documentation">
+    <section id="introduction">
+        <h3>Introduction</h3>
+        <p ><pre style="font-family: cursive;" >
+->HTML stands for Hyper Text Markup Language
+->HTML is the standard markup language for creating Web pages
+->HTML describes the structure of a Web page
+->HTML consists of a series of elements
+->HTML elements tell the browser how to display the content
+->HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc.
+
+<div>
+
+Example
+&lt;!DOCTYPE html&gt;
+&lt;html>
+&lt;head>
+&lt;title>Page Title&lt;/title>
+&lt;/head>
+&lt;body>
+
+&lt;h1>My First Heading</h1>
+&lt;p>My first paragraph.</p>
+&lt;/body>
+&lt;/html>
+</div>
+</pre>
+        </p>
+    </section>
+    <section id="html_editors">
+        <h3>HTML Editors</h3>
+        <p>
+            <pre style="font-family: cursive;">
+ A simple text editor is all you need to learn HTML.
+
+Learn HTML Using Notepad or TextEdit:
+
+
+Web pages can be created and modified by using professional HTML editors.
+However, for learning HTML we recommend a simple text editor like Notepad (PC) or TextEdit (Mac).
+We believe that using a simple text editor is a good way to learn HTML.
+
+Follow the steps below to create your first web page with Notepad or TextEdit.
+
+STEP 1: 
+Open Notepad (PC)
+Windows 8 or later:
+Open the Start Screen (the window symbol at the bottom left on your screen). Type Notepad.
+
+Windows 7 or earlier:
+Open Start > Programs > Accessories > Notepad
+
+STEP 2:
+Write Some HTML
+
+STEP 3:
+Save the HTML Page
+Save the file on your computer. Select File > Save as in the Notepad menu.
+Name the file "index.htm" and set the encoding to UTF-8 (which is the preferred encoding for HTML files)
+
+STEP 4:
+View the HTML Page in Your Browser
+Open the saved HTML file in your favorite browser (double click on the file, or right-click - and choose "Open with").      </pre>
+        </p>
+    </section>
+    <section id="html_element">
+        <h3>HTML Element</h3>
+        <p>
+            <pre style="font-family: cursive;">
+The HTML element is everything from the start tag to the end tag:
+
+&lt;tagname&gt;Content goes here...&lt;/tagname&gt;
+
+*Nested HTML Elements :
+HTML elements can be nested (this means that elements can contain other elements).
+
+All HTML documents consist of nested HTML elements.
+
+The &lt;html> element is the root element and it defines the whole HTML document.
+It has a start tag &lt;html> and an end tag &lt;/html>.
+Then, inside the &lt;html> element there is a &lt;body> element:
+The &lt;body> element defines the document's body.
+It has a start tag &lt;body> and an end tag &lt;/body>.
+Then, inside the &lt;body> element there are two other elements: &lt;h1> and &lt;p>
+            </pre>
+        </p>
+    </section>
+    <section id="html_tags">
+        <h3>HTML Tags</h3>
+        <p>
+            <pre style="font-family: cursive;">
+HTML tags are like keywords which defines that how web browser will format and display the content. With the help of tags, a web browser can distinguish between an HTML content and a simple content. HTML tags contain three main parts: opening tag, content and closing tag. But some HTML tags are unclosed tags.
+When a web browser reads an HTML document, browser reads it from top to bottom and left to right. HTML tags are used to create HTML documents and render their properties. Each HTML tags have different properties.
+An HTML file must have some essential tags so that web browser can differentiate between a simple text and HTML text. You can use as many tags you want as per your code requirement.
+
+
+<table border="1">
+    <tr>
+        <th colspan="4"> some html tags</th>
+    </tr>
+    <tr>
+        <th>s no.</th>
+        <th>name of tag</th>
+        <th>tag</th>
+        <th>use</th>
+    </tr>
+   
+    <tr>
+        <td>1</td>
+        <td>body tag</td>
+        <td>&lt;body&gt;</td>
+        <td>It contains the body of html page</td>
+       </tr>
+    <tr>
+        <td>2</td>
+        <td>anchor tag</td>
+        <td>&lt;a&gt;</td>
+        <td>It contains the link </td>
+    </tr>
+    
+    <tr>
+        <td>3</td>
+        <td>table tag</td>
+        <td>&lt;table&gt;</td>
+        <td>It conatins a table</td>
+    </tr>
+     
+    <tr>
+        <td>4</td>
+        <td>paragrhaph</td>
+        <td>&lt;p&gt;</td>
+        <td>It contains a paragraph</td>
+       </tr>
+       <tr>
+        <td>5</td>
+        <td>title tag</td>
+        <td>&lt;title></td>
+        <td>Defines the tile of the document</td>
+       </tr>
+       <tr>
+        <td>6</td>
+        <td>div tag</td>
+        <td>&lt;div></td>
+        <td>Divides the content of web page</td>
+       </tr>
+       <tr>
+        <td>7</td>
+        <td>horizontal rule</td>
+        <td>&lt;hr></td>
+        <td>It is used to insert a horizontal rule</td>
+       </tr>
+
+
+</table>
+            </pre>
+        </p>
+    </section>
+    <section id="html_attributes">
+        <p>
+            <pre style="font-family: cursive;">
+->HTML attributes are special words which provide additional information about the elements or attributes are the modifier of the HTML element.
+->Each element or tag can have attributes, which defines the behaviour of that element.
+->Attributes should always be applied with start tag.
+->The Attribute should always be applied with its name and value pair.
+->The Attributes name and values are case sensitive, and it is recommended by W3C that it should be written in Lowercase only.
+->You can add multiple attributes in one HTML element, but need to give space between two attributes.
+
+Syntax
+&lt;element attribute_name="value"&gt;content&lt;/element&gt;
+
+some html attributes are:
+1. href
+2. style
+3. title
+4. src etc....  
+
+</pre>
+        </p>
+    </section>
+
+    <section id="html_heading">
+        <p>
+            <pre style="font-family: cursive;">
+A HTML heading or HTML h tag can be defined as a title or a subtitle which you want to display on the webpage. When you place the text within the heading tags &lt;h1>.........&lt;/h1>, it is displayed on the browser in the bold format and size of the text depends on the number of heading.
+There are six different HTML headings which are defined with the &lt;h1> to &lt;h6> tags, from highest level h1 (main heading) to the least level h6 (least important heading).
+h1 is the largest heading tag and h6 is the smallest one. So h1 is used for most important heading and h6 is used for least important.
+            </pre>
+        </p>
+    </section>
+    <section id="html_paragraphs">
+        <h3>HTML Paragraph</h3>
+        <p>
+<pre style="font-family: cursive;">
+The HTML &lt;p> element defines a paragraph.
+
+A paragraph always starts on a new line, and browsers automatically add some white space (a margin) before and after a paragraph
+Example: 
+&lt;p>This is a paragraph.&lt;/p>
+&lt;p>This is another paragraph.&lt;/p>
+
+<b>HTML Display:</b>
+
+You cannot be sure how HTML will be displayed.
+Large or small screens, and resized windows will create different results.
+With HTML, you cannot change the display by adding extra spaces or extra lines in your HTML code.
+The browser will automatically remove any extra spaces and lines when the page is displayed:
+
+Example:
+&lt;p>
+This paragraph
+contains a lot of lines
+in the source code,
+but the browser
+ignores it.
+&lt;/p>
+
+&lt;p>
+This paragraph
+contains         a lot of spaces
+in the source         code,
+but the        browser
+ignores it.
+&lt;/p>
+
+<b>HTML Horizontal Rules:</b>
+
+The &lt;hr> tag defines a thematic break in an HTML page, and is most often displayed as a horizontal rule.
+The &lt;hr> element is used to separate content (or define a change) in an HTML page
+Example:
+
+&lt;h2>This is heading 1</h2>
+&lt;p>This is some text.</p>
+&lt;hr>
+
+output:
+<h2>This is heading 1</h2><p>This is some text.</p><hr>
+
+<b>HTML Line Breaks</b>
+The HTML &lt;br> element defines a line break.
+Use &lt;br> if you want a line break (a new line) without starting a new paragraph:
+           
+<b>HTML &lt;pre> Element</b>
+The HTML &lt;pre> element defines preformatted text.
+The text inside a &lt;pre> element is displayed in a fixed-width font (usually Courier), and it preserves both spaces and line breaks:
+</pre>
+        </p>
+    </section>
+    <section id="html_style">
+        <h3>HTML Style</h3>
+        <p>
+   <pre  style="font-family: cursive;">
+The HTML style attribute is used to add styles to an element, such as color, font, size, and more.
+The HTML Style Attribute
+Setting the style of an HTML element, can be done with the style attribute.
+
+The HTML style attribute has the following syntax:
+                 <table style="text-align: center;" border="1"><tr><td>&lt;tagname style="property:value;"></td></tr></table>
+The property is a CSS property. The value is a CSS value.
+
+->Use <u>background-color</u> for background color.
+->Use <u>color</u> for text colors.
+->Use <u>font-family</u> for text fonts.
+->Use <u>font-size for</u> text sizes.
+->Use <u>text-align</u> for text alignment.
+</pre>
+</p>
+    </section>
+<section id="html_formatting">
+        <h3>HTML Formatting</h3>
+ <p>
+            <pre style="font-family: cursive;">
+HTML contains several elements for defining text with a special meaning.
+
+<b>HTML Formatting Elements:</b>
+
+Formatting elements were designed to display special types of text:
+
+1.  &lt;b> - Bold text
+2.  &lt;strong> - Important text
+3.  &lt;i> - Italic text
+4.  &lt;em> - Emphasized text
+5.  &lt;mark> - Marked text
+6.  &lt;small> - Smaller text
+7.  &lt;del> - Deleted text
+8.  &lt;ins> - Inserted text
+9.  &lt;sub> - Subscript text
+10. &lt;sup> - Superscript text
+</pre></p>
+    </section>
+    <section id="html_comments">
+        <h3>HTML Comments</h3>
+        <p>
+            <pre style="font-family: cursive;">
+HTML Comments are used to insert comments in the HTML code. It is a good practice of coding so that the coder and the reader can get help to understand the code. It is a simple piece of code that is wiped off (ignored) by web browsers i.e., not displayed by the browser.
+
+you can add comments to your HTML source by using the following syntax:
+
+<table border="1">
+    <tr>
+        <td>&lt;!-- Write your comments here --&gt;</td>
+    </tr>
+</table>
+Comments can be used to hide content.This can be helpful if you hide content temporarily</pre></p></section>
+
+    <section id="html_quotations">
+        <h3>HTML Quotations</h3>
+        <p>
+            <pre style="font-family: cursive;">
+The Quotation elements in HTML are used to insert quoted texts in a web page, that is the portion of texts different from the normal texts in the web page. Below are some of the most used quotation elements of HTML:
+&lt;q> element: The &lt;q> element is used to set a set of text inside the quotation marks. It has both opening and closing tags. 
+
+Example: 
+
+<table border="1">
+    <tr><td>   &lt;p>&lt;q>The quick brown fox jumps over the lazy dog&lt;/q>&lt;/p>  </td></tr></table>
+Output:
+"The quick brown fox jumps over the lazy dog"
+
+&lt;blockquote> element:
+The &lt;blockquote> element is also used for quotations in a different way. Instead of putting the text in quotes, it adds space before the start of the sentence, with this tag, we can also indent the start of the new paragraph. It has both opening and closing tags.
+
+&lt;address> element:
+Using the &lt;address> element, we can define an address in a webpage and the text put inside the address tag will be emphasized. Usually, the line break is added before and after the address tag and the content inside this tag is generally renders in italic format. It helps screen readers also It has both opening and closing tags.
+
+&lt;abbr> element: 
+The &lt;abbr> element is used to define a text as an acronym or abbreviation. The title attribute can be used to show the full version of the abbreviation/acronym when you hover the mouse over the &lt;abbr> element. It has both opening and closing tags. This is useful for browsers and search engines.
+
+&lt;bdo> element: The &lt;bdo> element is used to define a bidirectional override which means that, the text is written from right to left or left to right. It has both opening and closing tags. It is used to over-ride the current text direction. It takes an attribute “rtl” to display the text from right to left
+ 
+&lt;cite> element: This element is used to define a title of a work and emphasizes a text. 
+</pre></p>
+    </section>
+    <section id="html_tables">
+        <h3>HTML Tables</h3>
+        <p>
+            <pre style="font-family: cursive;">
+HTML tables allow web developers to arrange data into rows and columns.
+
+Define an HTML Table
+A table in HTML consists of table cells inside rows and columns.
+Example:
+
+&lt;table>
+&lt;tr>
+&lt;th>Company&lt;/th>
+&lt;th>Contact&lt;/th>
+&lt;th>Country&lt;/th>
+&lt;/tr>
+&lt;tr>
+&lt;td>Alfreds Futterkiste&lt;/td>
+&lt;td>Maria Anders&lt;/td>
+&lt;td>Germany&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Centro comercial Moctezuma&lt;/td>
+&lt;td>Francisco Chang&lt;/td>
+&lt;td>Mexico&lt;/td>
+&lt;/tr>
+&lt;/table>
+
+Output:
+<table border="1">
+    <tr>
+      <th>Company</th>
+      <th>Contact</th>
+      <th>Country</th>
+    </tr>
+    <tr>
+      <td>Alfreds Futterkiste</td>
+      <td>Maria Anders</td>
+      <td>Germany</td>
+    </tr>
+    <tr>
+      <td>Centro comercial Moctezuma</td>
+      <td>Francisco Chang</td>
+      <td>Mexico</td>
+    </tr>
+  </table>
+Table Cells:
+Each table cell is defined by a &lt;td> and a &lt;/td> tag.
+Everything between&lt;td> and &lt;/td> are the content of the table cell.
+ 
+Table Rows:
+Each table row starts with a &lt;tr> and ends with a &lt;/tr> tag.
+
+Table Headers:
+Sometimes you want your cells to be table header cells. In those cases use the &lt;th> tag instead of the &lt;td> tag.
+
+&lt;colgroup> :  Specifies a group of one or more columns in a table for formatting.
+&lt;col>          :  Specifies column properties for each column within a &lt;colgroup> element.
+&lt;thead>     :  Groups the header content in a table</pre>
+        </p>
+    </section>
+    <section id="html_lists">
+        <h3>HTML Lists</h3>
+        <p>
+            <pre style="font-family: cursive;">
+HTML lists allow web developers to group a set of related items in lists.
+
+Example
+An unordered HTML list:
+Item
+Item
+Item
+Item
+
+An ordered HTML list:
+First item
+Second item
+Third item
+Fourth item
+
+<b>Unordered HTML List:</b>
+An unordered list starts with the &lt;ul> tag. Each list item starts with the &lt;li> tag.
+The list items will be marked with bullets (small black circles) by default
+
+<b>Ordered HTML List:</b>
+An ordered list starts with the &lt;ol> tag. Each list item starts with the &lt;li> tag.
+The list items will be marked with numbers by default.
+
+<b>HTML Description Lists:</b>
+HTML also supports description lists.
+A description list is a list of terms, with a description of each term.
+The &lt;dl> tag defines the description list, the &lt;dt> tag defines the term (name), and the &lt;dd> tag describes each term</pre>
+        </p>
+    </section>
+    <section id="html_title">
+        <h3>HTML Title</h3>
+        <p>
+            <pre style="font-family: cursive;">
+Every web page should have a page title to describe the meaning of the page.
+The &lt;title> element adds a title to your page:
+
+The title is shown in the browser's title bar:
+
+<img src="https://tse1.mm.bing.net/th?id=OIP.Ze-ZdEaqPVQUSd_dGz_bbQHaEd&pid=Api&P=0&h=180" alt="title of web page ">
+           
+Example:
+&lt;!DOCTYPE html>
+&lt;html>
+&lt;head>
+&lt;title>HTML Tutorial&lt;/title>
+&lt;/head>
+&lt;body>
+
+The content of the document......
+
+&lt;/body>
+&lt;/html>
+
+the &lt;title> element:
+    defines a title in the browser toolbar
+    provides a title for the page when it is added to favorites
+    displays a title for the page in search engine-results</pre></p>
+    </section>
+    <section id="html_form">
+        <h3>HTML Forms</h3>
+        <p>
+            <pre style="font-family: cursive;">An HTML form is used to collect user input. The user input is most often sent to a server for processing.
+the HTML &lt;form> element is used to create an HTML form for user input:
+                   
+                    &lt;form>
+                    .
+                    form elements
+                    .
+                    &lt;/form>
+
+The HTML &lt;input> element is the most used form element.
+An &lt;input> element can be displayed in many ways, depending on the type attribute.
+Here are some examples:
+&lt;input type="text">	         :    Displays a single-line text input field
+&lt;input type="radio">	         :    Displays a radio button (for selecting one of many choices)
+&lt;input type="checkbox">    :    Displays a checkbox (for selecting zero or more of many choices)
+&lt;input type="submit">	 :     Displays a submit button (for submitting the form)
+&lt;input type="button">	 :     Displays a clickable button
+
+<b>The &lt;label> Element:</b>
+Notice the use of the &lt;label> element in the example above.
+The &lt;label> tag defines a label for many form elements.
+The &lt;label> element is useful for screen-reader users, because the screen-reader will read out loud the label when the user focuses on the input element
+
+<b>The Name Attribute for &lt;input></b>
+Notice that each input field must have a name attribute to be submitted.
+If the name attribute is omitted, the value of the input field will not be sent at all</pre>
+        </p>
+    </section><section id="Reference">
+        <h3>Reference</h3>
+        <p>
+            <pre style="font-family: cursive;">
+               <b> tags and their descriptions:</b>
+
+&lt;!--...-->	 Defines a comment
+&lt;!DOCTYPE> 	Defines the document type
+&lt;a>	        Defines a hyperlink
+&lt;abbr>    	Defines an abbreviation or an acronym
+&lt;address>	Defines contact information for the author/owner of a document
+&lt;area>	    Defines an area inside an image map
+&lt;article> 	Defines an article
+&lt;aside>	    Defines content aside from the page content
+&lt;audio>	    Defines embedded sound content
+&lt;b>	        Defines bold text
+&lt;base>    	Specifies the base URL/target for all relative URLs in a document
+&lt;bdi>	    Isolates a part of text that might be formatted in a different direction from other text outside it
+&lt;bdo>    	Overrides the current text direction
+&lt;blockquote>	Defines a section that is quoted from another source
+&lt;body>	    Defines the document's body
+&lt;br>     	Defines a single line break
+&lt;button>	    Defines a clickable button
+&lt;canvas>	    Used to draw graphics, on the fly, via scripting (usually JavaScript)
+&lt;caption>	Defines a table caption
+&lt;cite>	    Defines the title of a work
+&lt;code>	    Defines a piece of computer code
+&lt;col>     	Specifies column properties for each column within a <colgroup> element 
+&lt;colgroup>	Specifies a group of one or more columns in a table for formatting
+&lt;data>	    Adds a machine-readable translation of a given content
+&lt;datalist>	Specifies a list of pre-defined options for input controls
+&lt;dd>	        Defines a description/value of a term in a description list
+&lt;del>	    Defines text that has been deleted from a document
+&lt;details>	Defines additional details that the user can view or hide
+&lt;dfn>	    Specifies a term that is going to be defined within the content
+&lt;dialog>   	Defines a dialog box or window
+&lt;div>	    Defines a section in a document
+&lt;dl>	        Defines a description list
+&lt;dt>     	Defines a term/name in a description list
+&lt;em>      	Defines emphasized text 
+.
+.
+.
+.
+.
+
+</pre>
+        </p>
+    </section>
+    </main>
+</body>
+</html>
